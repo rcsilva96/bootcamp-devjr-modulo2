@@ -6,8 +6,32 @@ body{
 
 .container{
 
-background-color: #E9E9E9;
+    background-color: #E9E9E9;
+    margin: auto; /* A margem esquerda sempre será igual a da direita, independente da janela */
 
+    width: 600px;
+
+}
+
+.header{
+
+    padding: 20px;
+
+}
+
+.flex-container{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.col-1{
+    background-color: #006A6A;
+}
+
+.col-2{
+    background-color: #009E9E;
 }
 
 /* Cores usadas
