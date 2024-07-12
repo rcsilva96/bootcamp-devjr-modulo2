@@ -60,7 +60,7 @@ body{
 
     background-color: #009E9E;
     width: 50%;
-    padding: 20px;
+    padding: 10px 20px;
     color: #FFFFFF;
 
 }
@@ -84,9 +84,12 @@ body{
     font-size: 15px;
     font-style: italic;
     margin-left: 15px;
+    margin-bottom: 20px;
+
 }
 
 .button{
+
     margin-top: 20px;
 
     width: 100%;
@@ -106,6 +109,12 @@ body{
 .button:hover{
 
     background-color: #E9E9E9;
+
+}
+
+.img{
+
+    text-align: center;
 
 }
 
