@@ -19,24 +19,24 @@ body{
 
 .header{
 
-    padding: 40px;
+    padding: 2.5rem;
 
 }
 
 .header-title{
 
     color: #006A6A;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
 }
 
 .header-subtitle{
 
     color: #009E9E;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 0.9rem;
 
 }
 
@@ -51,7 +51,7 @@ body{
 
     background-color: #006A6A;
     width: 50%;
-    padding: 20px;
+    padding: 1.2rem;
     color: #FFFFFF;
 
 }
@@ -60,45 +60,44 @@ body{
 
     background-color: #009E9E;
     width: 50%;
-    padding: 10px 20px;
+    padding: 0.6rem 1.2rem;
     color: #FFFFFF;
 
 }
 
 .subscription-title{
 
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1.2rem;
 }
 
 .price{
 
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: 700px;
 
 }
 
 .month{
 
-    font-size: 15px;
+    font-size: 0.9rem;
     font-style: italic;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    margin-left: 0.9rem;
 
 }
 
 .button{
 
-    margin-top: 20px;
+    margin-top: 1.2rem;
 
     width: 100%;
-    padding: 15px 32px;
+    padding: 1rem 2rem;
 
     color: #006A6A;
     background-color: #CCCCCC;
 
-    font-size: 16px;
+    font-size: 1rem;
 
     border-radius: 5px;
     border: none; 
@@ -118,18 +117,30 @@ body{
 
 }
 
+@media screen and (max-width: 620px){
+ 
+    html{
 
-/* Cores usadas
+        font-size: 10px;
 
-body: #f5f5f5
-button: #006A6A
-button:hover: #E9E9E9
+    }
 
-.container>background-color: #E9E9E9
-header-title: #006F6F
-header-subtitle: #009E9E
-col-1: #006A6A
-col-2: #009E9E
-form-register: #006A6A
+    .container{
 
-*/
+        width: 95%;
+
+    }
+
+    .flex-container{
+
+        flex-direction: column;
+
+    }
+
+    .col-1, .col-2{
+
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}
